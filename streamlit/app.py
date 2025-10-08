@@ -51,7 +51,7 @@ with tab1:
                     st.warning(f"**PREDICTION: {label}**")
                 
                 # Intent
-                intent = result.get("intent_type", "Unknown")
+                intent = result.get("intent", "Unknown")
                 st.info(f"**Intent Detected:** {intent}")
             
             with col2:
